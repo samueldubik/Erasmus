@@ -26,7 +26,6 @@ module.exports = {
     },
 
     fontFamily: {
-      'p2'  :    ['Press Start 2P'],
       'source' : ['Source Code Pro'],
       
     }
