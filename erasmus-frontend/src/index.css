@@ -12,4 +12,8 @@
     .color-decoration {
         background: linear-gradient(90deg, #FFD233 0%, #FFD233 23.23%, #5BB13C 23.24%, #3CAC6F 52.4%, #FF3364 52.41%, #FF3364 74.27%, #6E8EFF 74.28%, #6E8EFF 100%);
     }
+
+    .custom-button-blue {
+        box-shadow: 10px -10px 5px 0px rgba(110, 142, 255,0.4);
+    }
 }
