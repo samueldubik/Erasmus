@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @layer base {
+   
     .font-press {
         font-family: 'Press Start 2P';
     }
@@ -16,4 +17,81 @@
     .custom-button-blue {
         box-shadow: 10px -10px 5px 0px rgba(110, 142, 255,0.4);
     }
+
+    .custom-button-lime-green {
+        box-shadow: 10px -10px 5px 0px rgba(91, 177, 60,0.4);
+    }
+
+
+    .custom-button-green {
+        box-shadow: 10px -10px 5px 0px rgba(60, 172, 111,0.4);
+    }
+
+
+    .custom-button-pink {
+        box-shadow: 10px -10px 5px 0px rgba(255, 51, 100,0.4);
+    }
+
+    .custom-button-yellow {
+        box-shadow: 10px -10px 5px 0px rgba(255, 210, 51,0.4);
+    }
+
+
+}
+
+@layer components {
+    header {
+        @apply mb-5;
+    }
+
+    header > div {
+        @apply color-decoration h-4 mb-10;
+    }
+
+    header > h1 {
+        @apply text-3xl font-press text-center;
+    }
+
+    header > h2 {
+        @apply text-2xl font-source text-center mt-3;
+    }
+
+    header > nav {
+        @apply hidden;
+    }
+
+    article {
+        @apply mx-3.5 mt-2;
+    }
+
+    section {
+        @apply mt-10;
+    }
+    
+    
+    section > div {
+        @apply bg-light pl-4 pr-8 pt-7 mt-3 rounded-md;
+    }
+
+    footer {
+        @apply mx-3.5 mt-2 mb-5;
+    }
+
+    footer > div {
+        @apply bg-light py-2 rounded-md mt-3;
+    }
+
+    div > h3 {
+        @apply pl-10 font-source
+    }
+
+    div > a {
+        @apply pl-10 font-source text-blue
+    }
+
+    div > h4 {
+        @apply text-center font-source;
+    }
+
+    
 }

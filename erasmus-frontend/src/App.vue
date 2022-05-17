@@ -3,17 +3,17 @@
 <template>
   <div>
     
-    <header class=" mb-5">
-      <div class=" color-decoration h-4 mb-10"></div>
-      <h1 class=" text-3xl font-press text-center">Erasmus+</h1>
-      <h2 class=" text-2xl font-source text-center mt-3">Home</h2>
-      <nav class=" hidden">asdsad</nav>
+    <header>
+      <div></div>
+      <h1>Erasmus+</h1>
+      <h2>Home</h2>
+      <nav>asdsad</nav>
     </header>
 
-    <article class="mx-3.5 mt-2">
+    <article>
       <section>
         
-        <div class=" bg-light pl-4 pr-8 pt-7 rounded-md">
+        <div>
           <h2 class=" text-xl font-press  text-blue ">I want to study abroad</h2>
           <hr class=" border-2 border-gray">
           <p class=" font-source mt-5">Yes, that's a good idea to eplore and see the world.
@@ -21,14 +21,14 @@
           <button class=" bg-blue w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-blue">apply ></button>
         </div>
 
-        <div class=" bg-light pl-4 pr-8 pt-7 rounded-md mt-3">
+        <div>
           <h2 class=" text-xl font-press  text-green">I just arrived</h2>
           <hr class=" border-2 border-gray">
           <p class=" font-source mt-5">First of all, welcome!
             We're glad that you are here. I guess
             you're interested in what's next.
           </p>
-          <button class=" bg-lime-green w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-blue">continue ></button>
+          <button class=" bg-lime-green w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-lime-green">continue ></button>
         </div>
 
       </section>
@@ -40,24 +40,24 @@
 
       </section>
 
-      <section class="mt-10">
+      <section>
 
-        <div class=" bg-light pl-4 pr-8 pt-7 rounded-md mt-3">
+        <div class=" ">
           <h2 class=" text-xl font-press  text-center">FAQ</h2>
           <p class=" font-source mt-5 text-center">How, what, deadlines, ...</p>
-          <button class=" bg-yellow ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-blue">go ?</button>
+          <button class=" bg-yellow ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-yellow">go ?</button>
         </div>
 
-        <div class=" bg-light pl-4 pr-8 pt-7 rounded-md mt-3">
+        <div class=" ">
           <h2 class=" text-xl font-press  text-center ">Feedback</h2>
           <p class=" font-source mt-5 text-center">What you liked or disliked</p>
-          <button class=" bg-pink ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-blue">submit *</button>
+          <button class=" bg-pink ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-pink">submit *</button>
         </div>
 
-        <div class=" bg-light pl-4 pr-8 pt-7 rounded-md mt-3">
+        <div class=" ">
           <h2 class=" text-xl font-press  text-center">Offered courses</h2>
           <p class=" font-source mt-5 text-center">List of courses that we have</p>
-          <button class=" bg-green ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-blue">list #</button>
+          <button class=" bg-green ml-[15%] w-2/3 h-12 text-white font-press mt-12 rounded-md mb-10 custom-button-green">list #</button>
         </div>
 
       </section>
@@ -72,7 +72,7 @@
       </div>
 
       <div>
-        <h3>Copyright © erasmus.tuke.sk</h3>
+        <h4>Copyright © erasmus.tuke.sk</h4>
       </div>
     </footer>
 
